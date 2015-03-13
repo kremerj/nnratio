@@ -1,7 +1,6 @@
 # nnratio
 A nearest neighbor density ratio estimator with model selection, written in Python 2. It uses numpy and scikit-learn.
 
-## Density ratio estimation
 ![Density ratio estimation example](/images/example.png)
 
 ## Install
