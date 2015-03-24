@@ -4,7 +4,11 @@ A nearest neighbor density ratio estimator with model selection, written in Pyth
 ![Density ratio estimation example](/images/example.png)
 
 ## Install
-`python setup.py install`
+```
+git clone https://github.com/kremerj/nnratio.git
+cd nnratio
+python setup.py install
+```
 
 ## Use
 ```
