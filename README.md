@@ -1,6 +1,20 @@
 # nnratio
 A nearest neighbor density ratio estimator with model selection, written in Python 2. It uses numpy and scikit-learn.
 
+The algorithm is explained in: Jan Kremer, Fabian Gieseke, Kim Steenstrup Pedersen, and Christian Igel. Nearest Neighbor Density Ratio Estimation for Large-Scale Applications in Astronomy. *Astronomy and Computing* **12**:67-72, 2015
+
+```
+@Article{kremer15,
+  author  = {J. Kremer and F. Gieseke and K. {Steenstrup Pedersen} and C. Igel},
+  title   = {Nearest neighbor density ratio estimation for large-scale applications in astronomy},
+  journal = {Astronomy and Computing},
+  year    = 2015,
+  pages   = {67-72},
+  volume  = 12,
+}
+```
+
+
 ![Density ratio estimation example](/images/example.png)
 
 ## Install
