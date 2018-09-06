@@ -130,7 +130,7 @@ class NearestNeighborsRatioEstimator(object):
         weights = np.zeros(X_ev.shape[0])
         for i in xrange(X_ev.shape[0]):
             # count number of numerator sample within the current radius of the query sample
-            weights[i] = len(self.nbrs_te.radius_neighbors(X_ev[i,:], radius=radii[i], return_distance=False)[0])
+            weights[i] = len(self.nbrs_te.radius_neighbors(X_ev[i,:].reshape(1, -1), radius=radii[i], return_distance=False)[0])
         # divide K denominator samples and normalize by the ratio of denominator to numerator samples
         weights *= float(self.n_tr) / float(self.n_neighbors * self.n_te)
                       
